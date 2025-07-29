@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous </title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+     <div class="navbar">
+            <div class="logo">
+                <img width="50px" height="50px" src="media/image/logo.jpg" alt="">
+                <h1>E-LIBERIE</h1>
+
+            </div>
+            <div class="menu">
+                <ul>
+                 <li><a href="index.html">🏠Accueil</a></li>
+                <li><a href="livres.html">📚catalogue</a></li>
+                <li><a href="fiche.html">📄Fiche livre</a></li>
+                <li><a href="panier.html">🛒Panier</a></li>
+                <li><a href="contact.html">📞CONTACT</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+     <main class="main-content">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h1>Contactez-nous</h1>
+                <p>Nous sommes là pour vous aider. N'hésitez pas à nous contacter !</p>
+            </div>
+
+            <div class="success-message" id="successMessage">
+                Votre message a été envoyé avec succès ! Nous vous répondrons dans les plus brefs délais.
+            </div>
+
+            <div class="error-message" id="errorMessage">
+                Une erreur s'est produite. Veuillez vérifier vos informations et réessayer.
+            </div>
+
+            <form id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">Prénom *</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Nom *</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Sujet *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Sélectionnez un sujet</option>
+                        <option value="info">Demande d'information</option>
+                        <option value="support">Support technique</option>
+                        <option value="commercial">Question commerciale</option>
+                        <option value="partnership">Partenariat</option>
+                        <option value="other">Autre</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" placeholder="Décrivez votre demande en détail..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    Envoyer le message
+                </button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Autres moyens de nous contacter</h3>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong> <img width="50px" height="50px" src="media/image/F.gif" alt=""><a href="facebook.com"></a>facebook</strong><br>
+                        
+                    </div>
+                    <div class="info-item">
+                        <strong><img width="50px" height="50px" src="media/image/telephone.jpg" alt=""> Téléphone</strong><br>
+                        +33 1 23 45 67 89
+                    </div>
+                    <div class="info-item">
+                        <strong><img width="50px" height="50px" src="media/image/enveloppe.png" alt=""> Adresse</strong><br>
+                        rue Jaxaay<br>
+                        75001 Dakar, Senegal
+                    </div>
+                    <div class="info-item">
+                        <strong> <img width="50px" height="50px" src="media/image/heure.jpg" alt="">Horaires</strong><br>
+                        Lun-Ven: 9h-18h<br>
+                        Sam: 9h-12h
+                    </div>
+                </div>
+            </div>
+            <div class="payement">
+                <h3><b>Modes de payment acceptés</b> </h3>
+                <div class="payement-methods">
+                     <a href="#"><img width="50px" height="50px" src="media/image/orange.jpg" alt=""></a>
+                    <a href="wave"><img width="50px" height="50px" src="media/image/wave.jpg" alt=""> </a>
+                  <a href="max senegal">  <img width="50px" height="50px" src="media/image/max.jpg" alt=""> </a>
+                  <a href="wizall">  <img width="50px" height="50px" src="media/image/wixal.jpg" alt=""> </a>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+            
+</body>
+</html>
