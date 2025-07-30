@@ -1,0 +1,132 @@
+body{
+  background-color: white;
+  
+} 
+/*
+border-radius: 20px;
+display: flex;
+align-items: center;
+ gap: 15px;
+
+
+}*/
+.logo img {
+border-radius: 50%;
+box-shadow: 4px 15px rgba(29, 23, 23, 0.2)
+            
+
+ }
+ .logo h1{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+ }
+ .logo img:hover {
+   text-decoration: none;
+   box-shadow: 10px;
+            
+
+  }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+}
+a{
+ text-decoration: none;
+    color:black;
+    font-size: 24px;
+    
+}
+
+p{
+    margin: 5px;
+    font-size: 25px;
+}
+nav{
+    padding: 5px;
+    background-color: white;
+
+}
+nav ul{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+nav ul li a {
+    color:  rgb(216, 216, 231);
+    text-decoration: none;
+    font-size: 25px;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+    border-radius: 5PX;
+    background-color: maroon;
+}
+.controle input {
+  width: 35px;
+  text-align: center;
+}
+.TOUT{
+text-align: center;
+}
+.total{
+  margin: 0%;
+}
+h2{
+  border-radius: 50px;
+   margin: 5px;
+   padding: 5px;
+   text-align: center;
+   background-color:bisque;
+}
+.element{
+    width: 320px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: bisque;
+  border-radius: 10px;
+}
+img{
+  width: 180;
+  height: 180;
+  border-radius: 5px;
+}
+.controle button{
+  background-color: maroon;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+a{
+  color:bisque;
+
+}
+.menu ul li a{
+  color: black;
+
+
+}
+.element :hover img{
+    border-radius: 10px;
+    color: black;
+}
+
+
