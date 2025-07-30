@@ -3,7 +3,7 @@
 }
 
 body {
-       background-color:  rgb(85, 85, 224);
+       background-color:  white;
           min-height: 100px;
          display: flex;
          flex-direction: column;
@@ -27,7 +27,7 @@ box-shadow: 4px 15px rgba(29, 23, 23, 0.2)
  }
  .logo h1{
     font-size: 50px;
-    color:white;
+    color:black;
     font-weight: bold;
  }
  .logo img:hover {
@@ -123,13 +123,12 @@ a:hover{
             justify-content: center;
             padding: 5px;
         }
-
-        .contact-container {
-            background:  blue;
+ .contact-container {
+            background:  bisque;
             backdrop-filter: blur(20px);
             border-radius: 20px;
             padding: 3px;
-            box-shadow: 0 20px 10px black;
+            box-shadow: 20px 10px beige;
             max-width: 600px;
             width: 100%;
             
@@ -138,20 +137,20 @@ a:hover{
         
         
 
-        .contact-header {
+.contact-header {
             text-align: center;
             margin-bottom: 2px;
         }
 
-        .contact-header h1 {
+.contact-header h1 {
             color:black;
             font-size: 50px;
             margin-bottom: 10px;
-            color: white;
+            color:black;
             
         }
 
-        .contact-header p {
+.contact-header p {
             color: black;
             font-size: 16px;
         }
@@ -201,25 +200,22 @@ a:hover{
         .submit-btn {
             width: 100%;
             padding: 10px 20px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background-color:maroon;
             color: white;
             border: none;
             border-radius: 10px;
             font-size: 16px;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
+            
         }
 
         .submit-btn:hover {
             transform: none;
-            box-shadow:  10px 25px rgba(102, 126, 234, 0.3);
+            box-shadow:  10px 25px rgba(22, 60, 230, 0.3);
         }
 
         .submit-btn:active {
-            transform: translate(2px);
             box-shadow: 25px;
         }
 
@@ -249,12 +245,9 @@ a:hover{
             transition: transform 0.3s ;
         }
 
-        .info-item:hover {
-            transform: translateY(3px);
-        }
-
-        .info-item strong {
-            color: #667eea;
+.info-item strong {
+            color: blue;
+            padding: 5px;
         }
 
         .success-message {
@@ -292,14 +285,22 @@ a:hover{
         .payement-methods {
             display: grid;
             grid-template-columns: 25% 25% 25% 25%;
-            padding-left: 50px;
+            padding-left: 10px;
         
         }
         .payement-methods img{
             width: 50px;
-            border-radius: 20px;
-            box-shadow: #667eea;
+            border-radius: 15px;
+            box-shadow:white;
+            
+        
         }
+        .payement-methods img a{
+            box-shadow:white;
+            text-decoration: none;
+            color: black;
+        }
+
         
 
         
