@@ -1,0 +1,80 @@
+ body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: rgb(235, 221, 203);
+  color: #2d3436;
+  margin-left: 40px;
+}
+
+header {
+ background-color:maroon;
+  
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  background-color: rgb(235, 221, 203);
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ .fiche-livre {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+  background-color: rgb(235, 221, 203);
+}
+
+.couverture {
+  width: 300px;
+  box-shadow: rgb(235, 221, 203);
+  border-radius: 10px;
+}
+
+.infos-livre h2 {
+  
+  margin-top: 20px;
+    background-color: rgb(235, 221, 203);
+}
+
+.infos-livre p {
+  margin: 10px 0;
+
+}
+
+button {
+  background-color: maroon;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.suggestions {
+  background-color: rgb(235, 221, 203);
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.suggestions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.suggestions li a {
+  text-decoration: none;
+  
+}
+
+footer {
+  text-align: center;
+  background-color: maroon;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
